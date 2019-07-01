@@ -1,0 +1,514 @@
+fileFormatVersion: 2
+guid: 1cff30bfae17c2143a4415749aa21300
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AlienEye
+    100002: AlienTentacles
+    100004: BrokenShieldA
+    100006: BrokenShieldB
+    100008: CeilingA
+    100010: CeilingB
+    100012: CeilingPipeA
+    100014: CeilingPipeB
+    100016: //RootNode
+    100018: CoverBarricadeA
+    100020: CoverBarricadeB
+    100022: CoverConsoleA
+    100024: CoverConsoleB
+    100026: CoverHarpoon
+    100028: DoorA
+    100030: DoorB
+    100032: FloorA
+    100034: FloorB
+    100036: FloorEdgeA
+    100038: FloorEdgeB
+    100040: FloorPipesA
+    100042: FloorPipesB
+    100044: HiddenTexturePaneling
+    100046: Misc01A
+    100048: Misc01B
+    100050: Misc02A
+    100052: Misc02B
+    100054: PCeilingA
+    100056: PCeilingB
+    100058: PFanBladeA
+    100060: PFanBladeB
+    100062: PFloorA
+    100064: PFloorB
+    100066: Pipes02A
+    100068: Pipes02B
+    100070: Pipes04A
+    100072: Pipes04B
+    100074: PLightingShellA
+    100076: PLightingShellB
+    100078: PMisc01A
+    100080: PMisc01B
+    100082: PWallsA
+    100084: PWallsB
+    100086: RockCover
+    100088: WallsA
+    100090: WallsB
+    100092: WallsBackA
+    100094: WallsBackB
+    400000: AlienEye
+    400002: AlienTentacles
+    400004: BrokenShieldA
+    400006: BrokenShieldB
+    400008: CeilingA
+    400010: CeilingB
+    400012: CeilingPipeA
+    400014: CeilingPipeB
+    400016: //RootNode
+    400018: CoverBarricadeA
+    400020: CoverBarricadeB
+    400022: CoverConsoleA
+    400024: CoverConsoleB
+    400026: CoverHarpoon
+    400028: DoorA
+    400030: DoorB
+    400032: FloorA
+    400034: FloorB
+    400036: FloorEdgeA
+    400038: FloorEdgeB
+    400040: FloorPipesA
+    400042: FloorPipesB
+    400044: HiddenTexturePaneling
+    400046: Misc01A
+    400048: Misc01B
+    400050: Misc02A
+    400052: Misc02B
+    400054: PCeilingA
+    400056: PCeilingB
+    400058: PFanBladeA
+    400060: PFanBladeB
+    400062: PFloorA
+    400064: PFloorB
+    400066: Pipes02A
+    400068: Pipes02B
+    400070: Pipes04A
+    400072: Pipes04B
+    400074: PLightingShellA
+    400076: PLightingShellB
+    400078: PMisc01A
+    400080: PMisc01B
+    400082: PWallsA
+    400084: PWallsB
+    400086: RockCover
+    400088: WallsA
+    400090: WallsB
+    400092: WallsBackA
+    400094: WallsBackB
+    2100000: CeilingMat
+    2100002: MiscMat1
+    2100004: PillarMat
+    2100006: UnlitPillarMat
+    2100008: WallMat
+    2100010: PipesMat1
+    2100012: PipesMat0
+    2100014: FloorEdgeMat
+    2100016: FloorMat
+    2100018: NewCeilingMat
+    2100020: Pipe5Mat
+    2100022: ExpWallMat
+    2100024: ExpPillarMat
+    2100026: GlassMat
+    2100028: DebugMat
+    2100030: PipesMat4
+    2100032: MiscMat2
+    2100034: PipesMat2
+    2100036: ShieldMat
+    2100038: LightingShellMat
+    2100040: MiscMat2.001
+    2100042: PipesMat2.001
+    2100044: PipesMat3
+    2100046: DoorMat
+    2100048: AlienMat
+    2100050: RockMat
+    2100052: HarpoonMat
+    2100054: CoverMat
+    2100056: MiscMat2.002
+    2100058: MiscMat1.002
+    2100060: PipesMat2.002
+    2300000: AlienEye
+    2300002: AlienTentacles
+    2300004: BrokenShieldA
+    2300006: BrokenShieldB
+    2300008: CeilingA
+    2300010: CeilingB
+    2300012: CeilingPipeA
+    2300014: CeilingPipeB
+    2300016: CoverBarricadeA
+    2300018: CoverBarricadeB
+    2300020: CoverConsoleA
+    2300022: CoverConsoleB
+    2300024: CoverHarpoon
+    2300026: DoorA
+    2300028: DoorB
+    2300030: FloorA
+    2300032: FloorB
+    2300034: FloorEdgeA
+    2300036: FloorEdgeB
+    2300038: FloorPipesA
+    2300040: FloorPipesB
+    2300042: HiddenTexturePaneling
+    2300044: Misc01A
+    2300046: Misc01B
+    2300048: Misc02A
+    2300050: Misc02B
+    2300052: PCeilingA
+    2300054: PCeilingB
+    2300056: PFanBladeA
+    2300058: PFanBladeB
+    2300060: PFloorA
+    2300062: PFloorB
+    2300064: Pipes02A
+    2300066: Pipes02B
+    2300068: Pipes04A
+    2300070: Pipes04B
+    2300072: PLightingShellA
+    2300074: PLightingShellB
+    2300076: PMisc01A
+    2300078: PMisc01B
+    2300080: PWallsA
+    2300082: PWallsB
+    2300084: RockCover
+    2300086: WallsA
+    2300088: WallsB
+    2300090: WallsBackA
+    2300092: WallsBackB
+    3300000: AlienEye
+    3300002: AlienTentacles
+    3300004: BrokenShieldA
+    3300006: BrokenShieldB
+    3300008: CeilingA
+    3300010: CeilingB
+    3300012: CeilingPipeA
+    3300014: CeilingPipeB
+    3300016: CoverBarricadeA
+    3300018: CoverBarricadeB
+    3300020: CoverConsoleA
+    3300022: CoverConsoleB
+    3300024: CoverHarpoon
+    3300026: DoorA
+    3300028: DoorB
+    3300030: FloorA
+    3300032: FloorB
+    3300034: FloorEdgeA
+    3300036: FloorEdgeB
+    3300038: FloorPipesA
+    3300040: FloorPipesB
+    3300042: HiddenTexturePaneling
+    3300044: Misc01A
+    3300046: Misc01B
+    3300048: Misc02A
+    3300050: Misc02B
+    3300052: PCeilingA
+    3300054: PCeilingB
+    3300056: PFanBladeA
+    3300058: PFanBladeB
+    3300060: PFloorA
+    3300062: PFloorB
+    3300064: Pipes02A
+    3300066: Pipes02B
+    3300068: Pipes04A
+    3300070: Pipes04B
+    3300072: PLightingShellA
+    3300074: PLightingShellB
+    3300076: PMisc01A
+    3300078: PMisc01B
+    3300080: PWallsA
+    3300082: PWallsB
+    3300084: RockCover
+    3300086: WallsA
+    3300088: WallsB
+    3300090: WallsBackA
+    3300092: WallsBackB
+    4300000: PCeilingA
+    4300002: PFanBladeB
+    4300004: PFanBladeA
+    4300006: PWallsB
+    4300008: FloorPipesB
+    4300010: FloorEdgeB
+    4300012: FloorB
+    4300014: CeilingB
+    4300016: CeilingPipeB
+    4300018: WallsB
+    4300020: WallsBackB
+    4300022: Pipes04B
+    4300024: Misc02B
+    4300026: Misc01B
+    4300028: Pipes02B
+    4300030: BrokenShieldB
+    4300032: HiddenTexturePaneling
+    4300034: BrokenShieldA
+    4300036: Pipes02A
+    4300038: Misc01A
+    4300040: Misc02A
+    4300042: Pipes04A
+    4300044: WallsA
+    4300046: WallsBackA
+    4300048: CeilingPipeA
+    4300050: CeilingA
+    4300052: FloorA
+    4300054: FloorPipesA
+    4300056: FloorEdgeA
+    4300058: PFloorB
+    4300060: PFloorA
+    4300062: PLightingShellB
+    4300064: PLightingShellA
+    4300066: PMisc01B
+    4300068: PWallsA
+    4300070: DoorA
+    4300072: DoorB
+    4300074: AlienEye
+    4300076: AlienTentacles
+    4300078: RockCover
+    4300080: CoverHarpoon
+    4300082: CoverBarricadeA
+    4300084: CoverBarricadeB
+    4300086: CoverConsoleA
+    4300088: CoverConsoleB
+    4300090: PMisc01A
+    4300092: PCeilingB
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AlienMat
+    second: {fileID: 2100000, guid: abb1f03eee8768344a0948e0e3175e5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeilingMat
+    second: {fileID: 2100000, guid: e795e8af709010c48a961ca3f3ab2b04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CoverMat
+    second: {fileID: 2100000, guid: ff77b6d3b2e2b9b46a6a88396884519e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DebugMat
+    second: {fileID: 2100000, guid: 98739844bf8ec6d43ab51ef06ccb4076, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorMat
+    second: {fileID: 2100000, guid: db0389f09474f3d4b827745ab054c1b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ExpPillarMat
+    second: {fileID: 2100000, guid: 1cbdf7ead752ba542a46a8dd708850a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ExpWallMat
+    second: {fileID: 2100000, guid: 59dabda7eba98e444899585787844c32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloorEdgeMat
+    second: {fileID: 2100000, guid: 151aa76ccc384754f99aef20e97eea77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloorMat
+    second: {fileID: 2100000, guid: 7dd7c7860a117724ebc90257a00fdd8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassMat
+    second: {fileID: 2100000, guid: 3ad7c768b75de544d94d1614eab6f5fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HarpoonMat
+    second: {fileID: 2100000, guid: 912063e2abb8efb4e9103309679dbde9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightingShellMat
+    second: {fileID: 2100000, guid: 775423fa8b2a5504f965fef31c6a969d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MiscMat1
+    second: {fileID: 2100000, guid: bda942808973fa24cba437ba8dec06a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MiscMat1.002
+    second: {fileID: 2100000, guid: bda942808973fa24cba437ba8dec06a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MiscMat2
+    second: {fileID: 2100000, guid: d4ad915b052b6db4e85c6d2c47ec9719, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MiscMat2.001
+    second: {fileID: 2100000, guid: d4ad915b052b6db4e85c6d2c47ec9719, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MiscMat2.002
+    second: {fileID: 2100000, guid: d4ad915b052b6db4e85c6d2c47ec9719, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NewCeilingMat
+    second: {fileID: 2100000, guid: a73b45f1ff75b5044a59367c3c388349, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PillarMat
+    second: {fileID: 2100000, guid: 12a598cacef0df247b788bc37ac8b88a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipe5Mat
+    second: {fileID: 2100000, guid: c82d7b6b7746a7a4094886731bd79c15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PipesMat0
+    second: {fileID: 2100000, guid: 6e033b9d13144e842a695232b9979121, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PipesMat1
+    second: {fileID: 2100000, guid: 5bac08c3b284db54caf1bf9e55eb9b85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PipesMat2
+    second: {fileID: 2100000, guid: cdc1493336ab7bc48a2b41f0a1face01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PipesMat2.001
+    second: {fileID: 2100000, guid: cdc1493336ab7bc48a2b41f0a1face01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PipesMat2.002
+    second: {fileID: 2100000, guid: cdc1493336ab7bc48a2b41f0a1face01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PipesMat3
+    second: {fileID: 2100000, guid: 5d0b4f2c387fbea42aed295602b266c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PipesMat4
+    second: {fileID: 2100000, guid: 7286005c576c3b244a76597c8306b6c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RockMat
+    second: {fileID: 2100000, guid: 87e2744ba370ca147aea1eb2de810c53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShieldMat
+    second: {fileID: 2100000, guid: 489ddf67565b4b24596de3a05cfdf6db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UnlitPillarMat
+    second: {fileID: 2100000, guid: 9d75be9c554bb8f4da4d12e2780d7362, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WallMat
+    second: {fileID: 2100000, guid: 92291819702e7954ca5f3136aaa05a74, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

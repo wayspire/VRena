@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 1e8bcef0-dd18-4ccb-8e5c-c2a27e78bdcc
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 0
+    UseNameServer: 1
+    FixedRegion: us
+    Server: 
+    Port: 0
+    Protocol: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  StartInOfflineMode: 0
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  RpcList:
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - UpdatePosition
+  - FireBullet
+  - FireBurst
+  - ExplodeGrenade
+  - RPC_SetKinematic
+  - FinishExplosion
+  - RPC_FinishExplosion
+  - RPC_PlayExplodingSound
+  - FireBulletEffects
+  - RPC_Damage
+  - RPC_FireSound
+  - RPC_SpawnLaser
+  - FadeRay
+  - FireSound
+  - SpawnBulletHole
+  - SpawnLaser
+  - PUN_UpdateAmmo
+  - PUN_SetHandActive
+  - RPC_Heal
+  - RPC_PlayerDie
+  - RPC_PlayerRevive
+  - RPC_SetHealth
+  - RPC_SetHealthUi
+  - RPC_SetName
+  - RPC_SetHealthPV
+  - RPC_SetPlayerName
+  - RPC_PlayLoop
+  - RPC_PlaySound
+  - RPC_StopLoop
+  - RPC_ConsolePrint
+  - RPC_ParentBarToHead
+  - RPC_CollideSound
+  - RPC_SetActive
+  - RPC_UpdateTimerUi
+  - SetUpDisplayArrays
+  - RPC_DestroyMovingWall
+  - RPC_PlaySoundIn
+  - RPC_PlaySoundOut
+  - RPC_PlaySoundStop
+  - RPC_SetActiveModel
+  - RPC_SetUpDisplayArrays
+  - RPC_SetplayerName
+  - RPC_FindHealthWatch
+  - RPC_SetHandActive
+  - RPC_UpdateStates
+  - RPC_RoundStart
+  - RPC_AddPlayerToSyncDictionary
+  - RPC_SetTeam1Size
+  - RPC_SetTeam2Size
+  - RPC_Sync
+  - RPC_SetDeathPlayerName
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1

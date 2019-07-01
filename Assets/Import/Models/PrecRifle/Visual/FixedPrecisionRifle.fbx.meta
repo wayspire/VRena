@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 1c088003d98827b48a1e33f461e425e6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 1stShutter
+    100002: 1stShutter_end
+    100004: 2ndShutter
+    100006: 2ndShutter_end
+    100008: 3rdShutter
+    100010: 3rdShutter_end
+    100012: 4thShutter
+    100014: 4thShutter_end
+    100016: 5thShutter
+    100018: 5thShutter_end
+    100020: 6thShutter
+    100022: 6thShutter_end
+    100024: Armature
+    100026: BarrelBone
+    100028: BarrelBone_end
+    100030: //RootNode
+    100032: PrecRifleBarrel
+    100034: PrecRifleBody
+    100036: PrecRifleButton
+    100038: PrecRifleFlaps
+    100040: Root
+    100042: TriggerBone
+    100044: TriggerBone_end
+    400000: 1stShutter
+    400002: 1stShutter_end
+    400004: 2ndShutter
+    400006: 2ndShutter_end
+    400008: 3rdShutter
+    400010: 3rdShutter_end
+    400012: 4thShutter
+    400014: 4thShutter_end
+    400016: 5thShutter
+    400018: 5thShutter_end
+    400020: 6thShutter
+    400022: 6thShutter_end
+    400024: Armature
+    400026: BarrelBone
+    400028: BarrelBone_end
+    400030: //RootNode
+    400032: PrecRifleBarrel
+    400034: PrecRifleBody
+    400036: PrecRifleButton
+    400038: PrecRifleFlaps
+    400040: Root
+    400042: TriggerBone
+    400044: TriggerBone_end
+    2100000: PrecRifleMat
+    2100002: PrecRifleMatGlow
+    4300000: PrecRifleBody
+    4300002: PrecRifleButton
+    4300004: PrecRifleFlaps
+    4300006: PrecRifleBarrel
+    9500000: //RootNode
+    13700000: PrecRifleBarrel
+    13700002: PrecRifleBody
+    13700004: PrecRifleButton
+    13700006: PrecRifleFlaps
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
