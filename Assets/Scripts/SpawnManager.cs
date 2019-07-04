@@ -19,6 +19,9 @@ public class SpawnManager : MonoBehaviour
 
 	private bool isSpawned = false;
 
+	public static int team1Size = 0;
+	public static int team2Size = 0;
+
 	private Dictionary<int, Transform> syncTable;
 
 	PhotonView photonView;
@@ -36,7 +39,7 @@ public class SpawnManager : MonoBehaviour
 		syncTable = new Dictionary<int, Transform>();
 		photonView = GetComponent<PhotonView>();
 	}
-
+	
 	public Transform GetSyncTransform(PlayerID id)
 	{
 		NetD.PrintS("SM.cs: Getting value to sync to...");
@@ -51,7 +54,7 @@ public class SpawnManager : MonoBehaviour
 
 		if(PhotonNetwork.IsMasterClient)
 		{
-			//return;
+			return;
 		}
 
 		if(!isSpawned)
@@ -60,11 +63,21 @@ public class SpawnManager : MonoBehaviour
 		}
 	}
 
+	[PunRPC]
+	public void RPC_SetTeam1Size(int size)
+	{
+		team1Size = size;
+	}
+
+	[PunRPC]
+	public void RPC_SetTeam2Size(int size)
+	{
+		team2Size = size;
+	}
+
 	void SpawnPlayer()
 	{
-		var team = PhotonNetwork.LocalPlayer.ActorNumber % 2 + 1;
-		NetD.PrintS("Spawning player " + PhotonNetwork.NickName + " with actor number " +
-			PhotonNetwork.LocalPlayer.ActorNumber + " on team " + team);
+		int team = PhotonNetwork.LocalPlayer.ActorNumber%2 + 1;
 		isSpawned = true;
 		spawnCamera.gameObject.SetActive(false);
 
@@ -74,11 +87,17 @@ public class SpawnManager : MonoBehaviour
 
 		if(team == 1)
 		{
-			ColocationSync.CS.syncTransform = team1Spawns[(PhotonNetwork.LocalPlayer.ActorNumber / 2)-1];
+			ColocationSync.CS.syncTransform = team1Spawns[team1Size];
+			NetD.PrintS("Team 1 size before: " + team1Size);
+			photonView.RPC("RPC_SetTeam1Size", RpcTarget.AllBufferedViaServer, team1Size + 1);
+			NetD.PrintS("Team 1 size after: " + team1Size);
 		}
 		else if(team == 2)
 		{
-			ColocationSync.CS.syncTransform = team2Spawns[((PhotonNetwork.LocalPlayer.ActorNumber-1) / 2)-1];
+			ColocationSync.CS.syncTransform = team2Spawns[team2Size];
+			NetD.PrintS("Team 1 size before: " + team1Size);
+			photonView.RPC("RPC_SetTeam2Size", RpcTarget.AllBufferedViaServer, team2Size + 1);
+			NetD.PrintS("Team 1 size after: " + team1Size);
 		}
 
 		#region Spawn Body Parts
@@ -145,7 +164,7 @@ public class SpawnManager : MonoBehaviour
 		leftHand.GetComponent<PhotonView>().RPC("RPC_SetPlayerName", RpcTarget.AllBufferedViaServer, PhotonNetwork.NickName);
 		rightHand.GetComponent<PhotonView>().RPC("RPC_SetPlayerName", RpcTarget.AllBufferedViaServer, PhotonNetwork.NickName);
 		head.GetComponent<PhotonView>().RPC("RPC_SetPlayerName", RpcTarget.AllBufferedViaServer, PhotonNetwork.NickName);
-        head.GetComponent<PhotonView>().RPC("RPC_SetDeathPlayerName", RpcTarget.AllBufferedViaServer, PhotonNetwork.NickName);
+        //head.GetComponent<PhotonView>().RPC("RPC_SetDeathPlayerName", RpcTarget.AllBufferedViaServer, PhotonNetwork.NickName);
 		body.GetComponent<PhotonView>().RPC("RPC_SetPlayerName", RpcTarget.AllBufferedViaServer, PhotonNetwork.NickName);
 		casing.GetComponent<PhotonView>().RPC("RPC_SetPlayerName", RpcTarget.AllBufferedViaServer, PhotonNetwork.NickName);
 		wheel.GetComponent<PhotonView>().RPC("RPC_SetPlayerName", RpcTarget.AllBufferedViaServer, PhotonNetwork.NickName);
